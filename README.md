@@ -23,4 +23,13 @@ mkdir my_project
 cd my_project
 git init
 ```
-Это лишь некоторые функции markdown.
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
